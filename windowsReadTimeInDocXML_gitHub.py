@@ -91,7 +91,6 @@ zipName = "zippedFile.docx"
 
 zipFilePath = zipWordDoc(folderpath, docName, zipName)
     
-#time = printTotalTimeSpentInWordDocZip(r'C:\Users\Y-dee\Desktop\CS Experimentation\Windows XML Test\Pass 1 Finite gathering tasks - TIMED.zip')
 time = printTotalTimeSpentInWordDocZip(zipFilePath)
 print('Time spent in  document: ',time, 'mins')
 print('Time spent in document: ',time//60, 'hours ', time%60, 'mins')
