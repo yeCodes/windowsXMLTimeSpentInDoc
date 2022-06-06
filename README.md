@@ -1,5 +1,5 @@
 
-    ##What the project does?
+    What the project does?
     **************************
     This script programmatically extracts the time spent editing a word document. It does does so by parsing the chosen 
     Word document's XML file hierarchy and extracting the time spent in document data.
